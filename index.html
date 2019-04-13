@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SHOPY - shope any where</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="icon" type="image/png" href="icons/favicon.png">
+</head>
+<body onresize="showArrivals()">
+	<header class="header">
+		<div class="small-header">
+			<div class="wrapped">
+				<div class="small-header__contacts">
+					<a href="" class="email">info@shopy.com</a>
+					<span class="phone">453 - 5553 - 996</span>
+				</div>
+				<div class="small-header__social">
+					<a href="#"><img src="icons/facebook.png" 
+					alt="facebook"></a>
+					<a href="#"><img src="icons/twitter.png" 
+					alt="twitter"></a>
+					<a href="#"><img src="icons/google.png" 
+					alt="google"></a>
+					<a href="#"><img src="icons/instagram.png"
+					alt="instagram"></a>
+				</div>
+			</div>
+		</div>
+		<div class="big-header wrapped">
+			<img src="images/shopy-logo.png" .class="logo">
+			<nav class="header__navigation">
+				<a href="#" class="header__nav-item">Home</a>
+				<a href="#" class="header__nav-item">Products</a>
+				<a href="#" class="header__nav-item">Hot&nbsp;Deals</a>
+				<a href="#" class="header__nav-item">About</a>
+				<a href="#" class="header__nav-item">Contacts</a>
+			</nav>
+			<div class="header__controls">
+				<img src="icons/search.png" alt="search" 
+				class="header__contr-item" 
+				onmouseover="this.src=
+				'icons/search-active.png'" onmouseout="this.src=
+				'icons/search.png'">
+				<img src="icons/user.png" alt="user profile" 
+				class="header__contr-item" 
+				onmouseover="this.src=
+				'icons/user-active.png'" onmouseout="this.src=
+				'icons/user.png'">
+				<img src="icons/cart.png" alt="cart" 
+				class="header__contr-item">
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="featured">
+			<div class="wrapped">
+				<div class="controller">
+					<div id="top" class="controller__side">
+					</div>
+					<div id="middle" class="controller__middle"></div>
+					<div id="bottom" class="controller__side">
+					</div>
+				</div>
+				<div class="featured__item">
+					<h2 class="featured__heading accent">FULL WINTER KIT</h2>
+					<p class="featured__subheading">Half Jacket + Skiny Trousers + Boot leather</p>
+					<p class="main__description">Lorem ipsum is a simply dummy text of the printing and typesetting idustry</p>
+					<span class="main__price">Price: 120$</span>
+					<button class="button accent">Order Now</button>
+				</div>
+				<div class="featured__item">
+					<h2 class="featured__heading accent"> WINTER KIT</h2>
+					<p class="featured__subheading">Half Jacket + Skiny Trousers</p>
+					<p class="main__description">Lorem ipsum is a simply dummy text of the printing and typesetting idustry</p>
+					<span class="main__price">Price: 80$</span>
+					<button class="button accent">Order Now</button>
+				</div>
+				<div class="featured__item">
+					<h2 class="featured__heading accent">Winter jacket</h2>
+					<p class="featured__subheading">Awesome Warm Half Jacket</p>
+					<p class="main__description">Lorem ipsum is a simply dummy text of the printing and typesetting idustry</p>
+					<span class="main__price">Price: 60$</span>
+					<button class="button accent">Order Now</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="arrivals wrapped">
+			<h2 class="main__heading"><span class="accent">New</span> Arrivals</h2>
+			<p class="main__description">Lorem ipsum is a simply dummy text of the printing and typesetting idustry</p>
+			<div class="arrivals__items">
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg" 
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_grey.jpg" 
+					class="arr-item__img">
+					<h4 class="main__item-description">Grey Winter Jacket</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg" 
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red_sport.jpg"
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Sport Jacket</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg"
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg" 
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg"
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+				<div class="arr-item">
+					<img src="images/jacket_red.jpg"
+					class="arr-item__img">
+					<h4 class="main__item-description">Red Winter Coat</h4>
+					<p class="main__price accent">100$</p>
+					<p class="arr-item__sizes">sizes : s - m - l - x</p>
+					<div class="arr-item__colors">
+						<div id="red"></div>
+						<div id="blue"></div>
+						<div id="lightblue"></div>
+						<div id="green"></div>
+					</div>
+					<div class="arr-item__controls">
+						<img src="icons/internet.png" 
+						alt="internet"
+						onmouseover="this.src=
+						'icons/internet-active.png'"
+						onmouseout="this.src=
+						'icons/internet.png'">
+						<img src="icons/cart2-inactive.png" 
+						alt="cart"
+						onmouseover="this.src='icons/cart2.png'"
+						onmouseout="this.src=
+						'icons/cart2-inactive.png'">
+						<img src="icons/heart.png" alt="like" 
+						onmouseover="this.src='icons/heart-active.png'"
+						onmouseout="this.src='icons/heart.png'">
+					</div>
+				</div>
+			</div>
+			<div class="arrivals__show-more" id="show-more"></div>
+		</section>
+
+		<section class="advertisment wrapped">
+			<div class="advertisment__local">
+				<img src="images/sale.png" alt="sale">
+				<div class="advertisment__description">
+					<h3 class="advertisment__heading">full winter kit</h3>
+					<p class="advertisment__subheading">Half Jacket + Skiny Trousers + Boot leather</p>
+				</div>
+				<div class="main__price main__price_big accent">
+						120$
+				</div>
+			</div>
+			<div class="advertisment__global" id="adv-area">
+				<p>adv <span class="accent">area</span></p>
+				<p class="main__description">great place for your advertisment</p>
+			</div>
+		</section>
+
+		<section class="sales wrapped">
+			<h2 class="main__heading"><span class="accent">BEST</span> SALES</h2>
+			<p class="main__description">Lorem ipsum is a simply dummy text of the printing and typesetting idustry</p>
+			<div class="sales__items">
+				<div class="sales__item">
+					<img src="images/jacket_brown.jpg" alt="">
+					<div>
+						<h4 class="main__item-description">Reebok Track Jacket</h4>
+						<p class="main__price">Price:&nbsp;<span class="accent">100$</span></p>
+					</div>
+				</div>
+				<div class="sales__item">
+					<img src="images/jacket_brown.jpg" alt="">
+					<div>
+						<h4 class="main__item-description">Reebok Track Jacket</h4>
+						<p class="main__price">Price:&nbsp;<span class="accent">100$</span></p>
+					</div>
+				</div>
+				<div class="sales__item">
+					<img src="images/jacket_brown.jpg" alt="">
+					<div>
+						<h4 class="main__item-description">Reebok Track Jacket</h4>
+						<p class="main__price">Price:&nbsp;<span class="accent">100$</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscription wrapped">
+			<div>
+				<h3 class="subscription__heading accent">NEWS LETTER</h3>
+				<p><i>join us now to get all news and special offers</i></p>
+			</div>
+			<form class="subscription__form">
+				 <input type="email" name="email" 
+				 placeholder="type your email here" 
+				 class="subscription__emali">
+				 <button type="submit" class="button subscription__button">join us</button>
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="wrapped">
+			<div class="footer__copy">
+				<img src="images/shopy-logo.png" .class="logo">
+				<p>Shopy&copy;2119. All rights reserved</p>
+			</div>
+			<ul class="footer__nav">
+				<li><a href="">about us</a></li>
+				<li><a href="">contact us</a></li>
+				<li><a href="">supprot</a></li>
+				<li><a href="">our feed</a></li>
+				<li><a href="">terms and conditions</a></li>
+				<li><a href="">our privacy</a></li>
+				<li><a href="">join us</a></li>
+				<li><a href="">live support</a></li>
+			</ul>
+			<div class="footer__payment">
+				<h4 class="accent">Payment Methods</h4>
+				<img src="icons/payment.png">
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/featured.js"></script>
+	<script src="js/arrivals.js"></script>
+</body>
+</html>
