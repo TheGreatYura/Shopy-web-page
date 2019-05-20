@@ -7,7 +7,7 @@ showBtn.addEventListener("click", handleArrivals);
 
 window.onload = showArrivals();
 
-for(let i = 0; i < 4; i++) {
+for(let i = 0; i < arrLen; i++) {
 	arrItems[i].addEventListener("mouseover", showMenu);
 	arrItems[i].addEventListener("mouseout", hideMenu);
 }
